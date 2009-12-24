@@ -1,4 +1,4 @@
-**AssetDuJour** is a plugin for Movable Type 5 to preselect the date « du jour » (today) in the asset upload path.
+**AssetDuJour** is a plugin for Movable Type to preselect the date « du jour » (today) in the asset upload path.
 
 # Why?
 
@@ -6,6 +6,8 @@ With the default behavior of MT, authors tend to upload all assets in the same p
 With Asset Du Jour, the default path in the upload asset form will be either &lt;Site Root>/YYYY/MM/DD or &lt;Archive Root>/YYYY/MM/DD depending how the archives are configured, with YYYY/MM/DD set to today.
 
 # Installation
+
+AssetDuJour works with MT 4.2+ (it works with MT 5.0 too).
 
 * Download <a href="http://github.com/padawan/AssetDuJour/">AssetDuJour</a>
 * Uncompress and copy the AssetDuJour folder into your MT plugins directory.

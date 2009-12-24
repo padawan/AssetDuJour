@@ -14,7 +14,7 @@
 
 package AssetDuJour::Plugin;
 
-use MT 5.0;
+use MT 4.2;
 
 sub xfm {
 	my ($cb, $app, $src) = @_;
