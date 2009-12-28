@@ -4,7 +4,7 @@ version: 1.0
 author_link: http://ubiquitic.com/
 author_name: François Nonnenmacher, Ubiquitic
 plugin_link: http://ubiquitic.com/software/assetdujour-movable-type-plugin.html
-description: <__trans phrase="Preselects the date « du jour » in the asset upload form.">
+description: <__trans phrase="Preselects the date “du jour” in the asset upload form.">
 l10n_class: AssetDuJour::L10N
 
 callbacks:

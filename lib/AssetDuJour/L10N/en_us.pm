@@ -1,8 +1,8 @@
-package LimitTitle::L10N::en_us;
+package AssetDuJour::L10N::en_us;
 
 use strict;
 
-use base 'LimitTitle::L10N';
+use base 'AssetDuJour::L10N';
 use vars qw( %Lexicon );
 %Lexicon = ();
 
