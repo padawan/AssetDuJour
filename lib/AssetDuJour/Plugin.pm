@@ -3,7 +3,7 @@
 # A Movable Type plugin to preselect today's date in the asset upload template.
 # http://ubiquitic.com/software/assetdujour-movable-type-plugin.html
 #
-# Release 1.0 — 2009/12/24
+# Release 1.1 — 2010/12/15
 # ----------------------------------------------------------------------------
 # This free software is provided as-is WITHOUT ANY KIND OF GUARANTEE.
 # You may use it for commercial or personal use.
@@ -18,7 +18,8 @@ use MT 4.2;
 
 sub xfm {
 	my ($cb, $app, $src) = @_;
+	$$src = '<mt:loop name="extra_paths"><mt:var name="middle_path" value="$path" escape="html"></mt:loop>'.$$src;
 	$$src =~ s/name="selected"/name="__last__"/;
 }
 
-1; # Ah que coucou !
+1; # Bonjour !
